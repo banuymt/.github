@@ -1,0 +1,30 @@
+name: Bug Report
+description: Hata bildirimi
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Ozet
+      description: Hatanin kisa aciklamasi
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrar Adimlari
+      description: Hatayi tekrar etmek icin adimlar
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen Davranis
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Gerceklesen Davranis
+    validations:
+      required: true
