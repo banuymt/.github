@@ -1,0 +1,22 @@
+name: Feature Request
+description: Ozellik onerisi
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Hangi problemi cozmek istiyorsun?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Onerilen Cozum
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatifler
+      description: Degerlendirilen alternatifler
